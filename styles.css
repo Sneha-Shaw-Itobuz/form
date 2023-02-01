@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 0;
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    box-shadow: 0 0 20px bisque;
+}
+
+section>div {
+    width: 70%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div>input,textarea,select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+}
+input:focus {
+    background-color: black;
+    color: #fff;
+}
+
+textarea {
+    /* height: 150px; */
+}
+section div>label {
+    width: 20%;
+    margin-right: 10px;
+}
+
+button {
+    background:black;
+    color: white;
+    padding: 10px 20px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    transition: all .6s ease-in;
+}
+button:hover {
+    background-color: white;
+    color: #000;
+}
+section>.check {
+    width: 70%;
+    justify-content: center;
+}
+
+section>.check>input{
+    width: unset;
+    margin-right: 20px;
+}
+
+section>.check>label{
+    width: unset;
+}
+.hide{
+    display: none;
+}
